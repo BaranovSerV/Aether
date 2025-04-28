@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="aether",  
     version="0.1.0",    
-    author="grandmaslippers", 
+    author="Baranov S.V.", 
     author_email="sergei.baranov.2005@mail.ru",
     description="CFD library on Python based on the Finite Volume Method (FVM)",
     long_description=open("README.md").read(),
@@ -16,5 +16,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.11",  
-    install_requires=[],     
+    install_requires=["numpy"],     
 )

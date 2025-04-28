@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Grid2D:
     def __init__(self, dx: float, dy: float, nx: int, ny: int, origin: tuple = (0.0, 0.0)):
         self.dx = dx
